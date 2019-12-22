@@ -1,0 +1,4430 @@
+{
+   "extensions" : [],
+   "meta" : {
+      "agent" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0",
+      "semver" : "3.0.0",
+      "vm" : "0.2.0-prerelease.20191001145300"
+   },
+   "monitors" : [
+      {
+         "id" : "w7Rv3%Yh,ZOg~;[q2,V/-saveCounter-",
+         "isDiscrete" : true,
+         "mode" : "default",
+         "opcode" : "data_variable",
+         "params" : {
+            "VARIABLE" : "saveCounter"
+         },
+         "sliderMax" : 100,
+         "sliderMin" : 0,
+         "spriteName" : null,
+         "value" : "",
+         "visible" : false,
+         "x" : 5,
+         "y" : 239
+      },
+      {
+         "id" : "w7Rv3%Yh,ZOg~;[q2,V/-assemblingSave-",
+         "isDiscrete" : true,
+         "mode" : "default",
+         "opcode" : "data_variable",
+         "params" : {
+            "VARIABLE" : "assemblingSave"
+         },
+         "sliderMax" : 100,
+         "sliderMin" : 0,
+         "spriteName" : null,
+         "value" : "",
+         "visible" : false,
+         "x" : 5,
+         "y" : 266
+      },
+      {
+         "id" : "w7Rv3%Yh,ZOg~;[q2,V/-tileOperation-",
+         "isDiscrete" : true,
+         "mode" : "default",
+         "opcode" : "data_variable",
+         "params" : {
+            "VARIABLE" : "tileOperation"
+         },
+         "sliderMax" : 100,
+         "sliderMin" : 0,
+         "spriteName" : null,
+         "value" : "",
+         "visible" : false,
+         "x" : 263,
+         "y" : 5
+      },
+      {
+         "id" : "0Ckwn_K5nsP=%1fNv9T?-tileID-",
+         "isDiscrete" : true,
+         "mode" : "default",
+         "opcode" : "data_variable",
+         "params" : {
+            "VARIABLE" : "tileID"
+         },
+         "sliderMax" : 100,
+         "sliderMin" : 0,
+         "spriteName" : "Tiles",
+         "value" : "",
+         "visible" : false,
+         "x" : 225,
+         "y" : 32
+      },
+      {
+         "id" : "w7Rv3%Yh,ZOg~;[q2,V/-nextTileID-",
+         "isDiscrete" : true,
+         "mode" : "default",
+         "opcode" : "data_variable",
+         "params" : {
+            "VARIABLE" : "nextTileID"
+         },
+         "sliderMax" : 100,
+         "sliderMin" : 0,
+         "spriteName" : null,
+         "value" : "",
+         "visible" : false,
+         "x" : 225,
+         "y" : 59
+      },
+      {
+         "id" : "w7Rv3%Yh,ZOg~;[q2,V/-decrementID-",
+         "isDiscrete" : true,
+         "mode" : "default",
+         "opcode" : "data_variable",
+         "params" : {
+            "VARIABLE" : "decrementID"
+         },
+         "sliderMax" : 100,
+         "sliderMin" : 0,
+         "spriteName" : null,
+         "value" : "",
+         "visible" : false,
+         "x" : 225,
+         "y" : 86
+      },
+      {
+         "height" : 202,
+         "id" : "w7Rv3%Yh,ZOg~;[q2,V/-save data-list",
+         "mode" : "list",
+         "opcode" : "data_listcontents",
+         "params" : {
+            "LIST" : "save data"
+         },
+         "spriteName" : null,
+         "value" : "",
+         "visible" : false,
+         "width" : 102,
+         "x" : 5,
+         "y" : 32
+      },
+      {
+         "height" : 320,
+         "id" : "w7Rv3%Yh,ZOg~;[q2,V/-Copy this into a text file-list",
+         "mode" : "list",
+         "opcode" : "data_listcontents",
+         "params" : {
+            "LIST" : "Copy this into a text file"
+         },
+         "spriteName" : null,
+         "value" : "",
+         "visible" : false,
+         "width" : 475,
+         "x" : 4,
+         "y" : 3
+      },
+      {
+         "id" : "w7Rv3%Yh,ZOg~;[q2,V/-tileX-",
+         "isDiscrete" : true,
+         "mode" : "default",
+         "opcode" : "data_variable",
+         "params" : {
+            "VARIABLE" : "tileX"
+         },
+         "sliderMax" : 100,
+         "sliderMin" : 0,
+         "spriteName" : null,
+         "value" : "",
+         "visible" : false,
+         "x" : 5,
+         "y" : 293
+      },
+      {
+         "id" : "w7Rv3%Yh,ZOg~;[q2,V/-tileY-",
+         "isDiscrete" : true,
+         "mode" : "default",
+         "opcode" : "data_variable",
+         "params" : {
+            "VARIABLE" : "tileY"
+         },
+         "sliderMax" : 100,
+         "sliderMin" : 0,
+         "spriteName" : null,
+         "value" : "",
+         "visible" : false,
+         "x" : 134,
+         "y" : 293
+      },
+      {
+         "id" : "w7Rv3%Yh,ZOg~;[q2,V/-tileType-",
+         "isDiscrete" : true,
+         "mode" : "default",
+         "opcode" : "data_variable",
+         "params" : {
+            "VARIABLE" : "tileType"
+         },
+         "sliderMax" : 100,
+         "sliderMin" : 0,
+         "spriteName" : null,
+         "value" : "",
+         "visible" : false,
+         "x" : 5,
+         "y" : 5
+      },
+      {
+         "id" : "w7Rv3%Yh,ZOg~;[q2,V/-currentAssembleVariable-",
+         "isDiscrete" : true,
+         "mode" : "default",
+         "opcode" : "data_variable",
+         "params" : {
+            "VARIABLE" : "currentAssembleVariable"
+         },
+         "sliderMax" : 100,
+         "sliderMin" : 0,
+         "spriteName" : null,
+         "value" : "",
+         "visible" : false,
+         "x" : 51,
+         "y" : 240
+      },
+      {
+         "id" : "answer",
+         "isDiscrete" : true,
+         "mode" : "default",
+         "opcode" : "sensing_answer",
+         "params" : {},
+         "sliderMax" : 100,
+         "sliderMin" : 0,
+         "spriteName" : null,
+         "value" : "",
+         "visible" : false,
+         "x" : 208,
+         "y" : 129
+      },
+      {
+         "id" : "w7Rv3%Yh,ZOg~;[q2,V/-copyComplete-",
+         "isDiscrete" : true,
+         "mode" : "default",
+         "opcode" : "data_variable",
+         "params" : {
+            "VARIABLE" : "copyComplete"
+         },
+         "sliderMax" : 100,
+         "sliderMin" : 0,
+         "spriteName" : null,
+         "value" : "",
+         "visible" : false,
+         "x" : 166,
+         "y" : 173
+      },
+      {
+         "id" : "w7Rv3%Yh,ZOg~;[q2,V/-loadingFromSave-",
+         "isDiscrete" : true,
+         "mode" : "default",
+         "opcode" : "data_variable",
+         "params" : {
+            "VARIABLE" : "loadingFromSave"
+         },
+         "sliderMax" : 100,
+         "sliderMin" : 0,
+         "spriteName" : null,
+         "value" : "",
+         "visible" : false,
+         "x" : 278,
+         "y" : 271
+      },
+      {
+         "id" : "w7Rv3%Yh,ZOg~;[q2,V/-version#-",
+         "isDiscrete" : true,
+         "mode" : "large",
+         "opcode" : "data_variable",
+         "params" : {
+            "VARIABLE" : "version#"
+         },
+         "sliderMax" : 100,
+         "sliderMin" : 0,
+         "spriteName" : null,
+         "value" : "TILECRAFT BETA 0.2",
+         "visible" : true,
+         "x" : 119,
+         "y" : -2
+      }
+   ],
+   "targets" : [
+      {
+         "blocks" : {
+            "Si@3veQcT.k7KL?`Di%z" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "version#",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-version#-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     1,
+                     [
+                        10,
+                        "TILECRAFT BETA 0.2"
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "data_setvariableto",
+               "parent" : null,
+               "shadow" : false,
+               "topLevel" : true,
+               "x" : 15,
+               "y" : 22
+            }
+         },
+         "broadcasts" : {
+            "broadcastMsgId-decrementid" : "decrementid",
+            "broadcastMsgId-game" : "game"
+         },
+         "comments" : {},
+         "costumes" : [
+            {
+               "assetId" : "b61b1077b0ea1931abee9dbbfa7903ff",
+               "bitmapResolution" : 2,
+               "dataFormat" : "png",
+               "md5ext" : "b61b1077b0ea1931abee9dbbfa7903ff.png",
+               "name" : "launcher",
+               "rotationCenterX" : 480,
+               "rotationCenterY" : 360
+            },
+            {
+               "assetId" : "d5139d7030cbaae82267ad203a8a2eae",
+               "bitmapResolution" : 2,
+               "dataFormat" : "png",
+               "md5ext" : "d5139d7030cbaae82267ad203a8a2eae.png",
+               "name" : "game",
+               "rotationCenterX" : 480,
+               "rotationCenterY" : 360
+            }
+         ],
+         "currentCostume" : 0,
+         "isStage" : true,
+         "layerOrder" : 0,
+         "lists" : {
+            "w7Rv3%Yh,ZOg~;[q2,V/-Copy this into a text file-list" : [
+               "Copy this into a text file",
+               []
+            ],
+            "w7Rv3%Yh,ZOg~;[q2,V/-save data-list" : [
+               "save data",
+               []
+            ]
+         },
+         "name" : "Stage",
+         "sounds" : [
+            {
+               "assetId" : "83a9787d4cb6f3b7632b4ddfebf74367",
+               "dataFormat" : "wav",
+               "format" : "",
+               "md5ext" : "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+               "name" : "pop",
+               "rate" : 44100,
+               "sampleCount" : 1032
+            }
+         ],
+         "tempo" : 60,
+         "textToSpeechLanguage" : null,
+         "variables" : {
+            "w7Rv3%Yh,ZOg~;[q2,V/-assemblingSave-" : [
+               "assemblingSave",
+               "4,7,3.4,6,3.4,5,3.5,5,3.5,6,3.4,7,3.5,7,3.6,5,3.6,6,3.6,8,3"
+            ],
+            "w7Rv3%Yh,ZOg~;[q2,V/-copyComplete-" : [
+               "copyComplete",
+               "1"
+            ],
+            "w7Rv3%Yh,ZOg~;[q2,V/-currentAssembleVariable-" : [
+               "currentAssembleVariable",
+               2
+            ],
+            "w7Rv3%Yh,ZOg~;[q2,V/-decrementID-" : [
+               "decrementID",
+               0
+            ],
+            "w7Rv3%Yh,ZOg~;[q2,V/-loadingFromSave-" : [
+               "loadingFromSave",
+               0
+            ],
+            "w7Rv3%Yh,ZOg~;[q2,V/-nextTileID-" : [
+               "nextTileID",
+               323
+            ],
+            "w7Rv3%Yh,ZOg~;[q2,V/-saveCounter-" : [
+               "saveCounter",
+               0
+            ],
+            "w7Rv3%Yh,ZOg~;[q2,V/-tileOperation-" : [
+               "tileOperation",
+               0
+            ],
+            "w7Rv3%Yh,ZOg~;[q2,V/-tileType-" : [
+               "tileType",
+               3
+            ],
+            "w7Rv3%Yh,ZOg~;[q2,V/-tileX-" : [
+               "tileX",
+               15
+            ],
+            "w7Rv3%Yh,ZOg~;[q2,V/-tileY-" : [
+               "tileY",
+               8
+            ],
+            "w7Rv3%Yh,ZOg~;[q2,V/-version#-" : [
+               "version#",
+               "TILECRAFT BETA 0.2"
+            ]
+         },
+         "videoState" : "off",
+         "videoTransparency" : 50,
+         "volume" : 100
+      },
+      {
+         "blocks" : {
+            "(#b|_2-.X2wnt7!AG2y-" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "loadingFromSave",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-loadingFromSave-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     1,
+                     [
+                        10,
+                        0
+                     ]
+                  ]
+               },
+               "next" : "H{_R1YRqL@9P9=mZMrJs",
+               "opcode" : "data_setvariableto",
+               "parent" : "H.-;+/{7XF1rmj{WI7~f",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "*Mb=5:hgO%34=b!(!z9Y" : {
+               "fields" : {},
+               "inputs" : {
+                  "SIZE" : [
+                     1,
+                     [
+                        4,
+                        50
+                     ]
+                  ]
+               },
+               "next" : "qziVyQXK5)Wl*Q7v_^.N",
+               "opcode" : "looks_setsizeto",
+               "parent" : "6.D.4n4l~-gyb`B`MTdT",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "4q]E-k;L@:an6VFLAaSD" : {
+               "fields" : {
+                  "BACKDROP" : [
+                     "game"
+                  ]
+               },
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "looks_backdrops",
+               "parent" : "a#lzGZ~14@|ufT~Px!0%",
+               "shadow" : true,
+               "topLevel" : false
+            },
+            "6.D.4n4l~-gyb`B`MTdT" : {
+               "fields" : {},
+               "inputs" : {
+                  "BACKDROP" : [
+                     1,
+                     "iF1Ah9*YDfWe#fYl_wL."
+                  ]
+               },
+               "next" : "*Mb=5:hgO%34=b!(!z9Y",
+               "opcode" : "looks_switchbackdropto",
+               "parent" : "H{_R1YRqL@9P9=mZMrJs",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "H.-;+/{7XF1rmj{WI7~f" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : "(#b|_2-.X2wnt7!AG2y-",
+               "opcode" : "event_whenflagclicked",
+               "parent" : null,
+               "shadow" : false,
+               "topLevel" : true,
+               "x" : 15,
+               "y" : 22
+            },
+            "H{_R1YRqL@9P9=mZMrJs" : {
+               "fields" : {},
+               "inputs" : {
+                  "X" : [
+                     1,
+                     [
+                        4,
+                        0
+                     ]
+                  ],
+                  "Y" : [
+                     1,
+                     [
+                        4,
+                        0
+                     ]
+                  ]
+               },
+               "next" : "6.D.4n4l~-gyb`B`MTdT",
+               "opcode" : "motion_gotoxy",
+               "parent" : "(#b|_2-.X2wnt7!AG2y-",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "Q={[-di3AXo54;*awpMg" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "looks_hide",
+               "parent" : "k(^mKm#fT@f2m6qr6sTh",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "ShonQA-bA570`Jub8WrY" : {
+               "fields" : {},
+               "inputs" : {
+                  "BROADCAST_INPUT" : [
+                     1,
+                     [
+                        11,
+                        "game",
+                        "broadcastMsgId-game"
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "event_broadcast",
+               "parent" : "a#lzGZ~14@|ufT~Px!0%",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "ZcvN4lJg^3hMRY5(e50." : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : "bLswh2T8gU6{E.@gl@^C",
+               "opcode" : "event_whenthisspriteclicked",
+               "parent" : null,
+               "shadow" : false,
+               "topLevel" : true,
+               "x" : 15,
+               "y" : 506
+            },
+            "a#lzGZ~14@|ufT~Px!0%" : {
+               "fields" : {},
+               "inputs" : {
+                  "BACKDROP" : [
+                     1,
+                     "4q]E-k;L@:an6VFLAaSD"
+                  ]
+               },
+               "next" : "ShonQA-bA570`Jub8WrY",
+               "opcode" : "looks_switchbackdropto",
+               "parent" : "tCaxqGrCquEukm#NFUjT",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "bLswh2T8gU6{E.@gl@^C" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : "tCaxqGrCquEukm#NFUjT",
+               "opcode" : "looks_hide",
+               "parent" : "ZcvN4lJg^3hMRY5(e50.",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "h]ht(RBzUVU^]KCXS5z!" : {
+               "fields" : {},
+               "inputs" : {
+                  "SUBSTACK" : [
+                     2,
+                     "l5oIP(jgJN!D6O,WJH+M"
+                  ],
+                  "TIMES" : [
+                     1,
+                     [
+                        6,
+                        10
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "control_repeat",
+               "parent" : "qziVyQXK5)Wl*Q7v_^.N",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "iF1Ah9*YDfWe#fYl_wL." : {
+               "fields" : {
+                  "BACKDROP" : [
+                     "launcher"
+                  ]
+               },
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "looks_backdrops",
+               "parent" : "6.D.4n4l~-gyb`B`MTdT",
+               "shadow" : true,
+               "topLevel" : false
+            },
+            "k(^mKm#fT@f2m6qr6sTh" : {
+               "fields" : {
+                  "BROADCAST_OPTION" : [
+                     "game",
+                     "broadcastMsgId-game"
+                  ]
+               },
+               "inputs" : {},
+               "next" : "Q={[-di3AXo54;*awpMg",
+               "opcode" : "event_whenbroadcastreceived",
+               "parent" : null,
+               "shadow" : false,
+               "topLevel" : true,
+               "x" : 15,
+               "y" : 796
+            },
+            "l5oIP(jgJN!D6O,WJH+M" : {
+               "fields" : {},
+               "inputs" : {
+                  "CHANGE" : [
+                     1,
+                     [
+                        4,
+                        10
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "looks_changesizeby",
+               "parent" : "h]ht(RBzUVU^]KCXS5z!",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "qziVyQXK5)Wl*Q7v_^.N" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : "h]ht(RBzUVU^]KCXS5z!",
+               "opcode" : "looks_show",
+               "parent" : "*Mb=5:hgO%34=b!(!z9Y",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "tCaxqGrCquEukm#NFUjT" : {
+               "fields" : {},
+               "inputs" : {
+                  "DURATION" : [
+                     1,
+                     [
+                        5,
+                        1
+                     ]
+                  ]
+               },
+               "next" : "a#lzGZ~14@|ufT~Px!0%",
+               "opcode" : "control_wait",
+               "parent" : "bLswh2T8gU6{E.@gl@^C",
+               "shadow" : false,
+               "topLevel" : false
+            }
+         },
+         "broadcasts" : {},
+         "comments" : {},
+         "costumes" : [
+            {
+               "assetId" : "116e09228d284f94006bd0dc9ade2c84",
+               "bitmapResolution" : 2,
+               "dataFormat" : "png",
+               "md5ext" : "116e09228d284f94006bd0dc9ade2c84.png",
+               "name" : "costume1",
+               "rotationCenterX" : 113,
+               "rotationCenterY" : 74
+            }
+         ],
+         "currentCostume" : 0,
+         "direction" : 90,
+         "draggable" : false,
+         "isStage" : false,
+         "layerOrder" : 2,
+         "lists" : {},
+         "name" : "Luancher",
+         "rotationStyle" : "all around",
+         "size" : 150,
+         "sounds" : [
+            {
+               "assetId" : "83a9787d4cb6f3b7632b4ddfebf74367",
+               "dataFormat" : "wav",
+               "format" : "",
+               "md5ext" : "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+               "name" : "pop",
+               "rate" : 44100,
+               "sampleCount" : 1032
+            }
+         ],
+         "variables" : {},
+         "visible" : true,
+         "volume" : 100,
+         "x" : 0,
+         "y" : 0
+      },
+      {
+         "blocks" : {
+            ")/s1BM]1sxU{8U(?tY%}" : {
+               "fields" : {
+                  "BROADCAST_OPTION" : [
+                     "game",
+                     "broadcastMsgId-game"
+                  ]
+               },
+               "inputs" : {},
+               "next" : "02GsQrXb_]4G}/tqv6JJ",
+               "opcode" : "event_whenbroadcastreceived",
+               "parent" : null,
+               "shadow" : false,
+               "topLevel" : true,
+               "x" : 15,
+               "y" : 328
+            },
+            "02GsQrXb_]4G}/tqv6JJ" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "version#",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-version#-"
+                  ]
+               },
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "data_showvariable",
+               "parent" : ")/s1BM]1sxU{8U(?tY%}",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            ";^=rF6L9b}Z|r7ccd%jo" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "version#",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-version#-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     1,
+                     [
+                        10,
+                        "TILECRAFT BETA 0.1.1"
+                     ]
+                  ]
+               },
+               "next" : "_3Jx.POI^UT)%j^EzM^U",
+               "opcode" : "data_setvariableto",
+               "parent" : "G}Xh4|A_r)!ld2M?qz0E",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "G}Xh4|A_r)!ld2M?qz0E" : {
+               "fields" : {
+                  "LIST" : [
+                     "Copy this into a text file",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-Copy this into a text file-list"
+                  ]
+               },
+               "inputs" : {
+                  "INDEX" : [
+                     1,
+                     [
+                        7,
+                        "all"
+                     ]
+                  ]
+               },
+               "next" : ";^=rF6L9b}Z|r7ccd%jo",
+               "opcode" : "data_deleteoflist",
+               "parent" : "u*=EC)]V(ax/`]w.-nms",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "_3Jx.POI^UT)%j^EzM^U" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "version#",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-version#-"
+                  ]
+               },
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "data_hidevariable",
+               "parent" : ";^=rF6L9b}Z|r7ccd%jo",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "u!S};!``(JJ(8Z)tNT6f" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : "u*=EC)]V(ax/`]w.-nms",
+               "opcode" : "event_whenflagclicked",
+               "parent" : null,
+               "shadow" : false,
+               "topLevel" : true,
+               "x" : 15,
+               "y" : 22
+            },
+            "u*=EC)]V(ax/`]w.-nms" : {
+               "fields" : {
+                  "LIST" : [
+                     "save data",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-save data-list"
+                  ]
+               },
+               "inputs" : {
+                  "INDEX" : [
+                     1,
+                     [
+                        7,
+                        "all"
+                     ]
+                  ]
+               },
+               "next" : "G}Xh4|A_r)!ld2M?qz0E",
+               "opcode" : "data_deleteoflist",
+               "parent" : "u!S};!``(JJ(8Z)tNT6f",
+               "shadow" : false,
+               "topLevel" : false
+            }
+         },
+         "broadcasts" : {},
+         "comments" : {},
+         "costumes" : [
+            {
+               "assetId" : "d36f6603ec293d2c2198d3ea05109fe0",
+               "bitmapResolution" : 2,
+               "dataFormat" : "png",
+               "md5ext" : "d36f6603ec293d2c2198d3ea05109fe0.png",
+               "name" : "costume1",
+               "rotationCenterX" : 0,
+               "rotationCenterY" : 0
+            }
+         ],
+         "currentCostume" : 0,
+         "direction" : 90,
+         "draggable" : false,
+         "isStage" : false,
+         "layerOrder" : 1,
+         "lists" : {},
+         "name" : "control",
+         "rotationStyle" : "all around",
+         "size" : 100,
+         "sounds" : [
+            {
+               "assetId" : "83a9787d4cb6f3b7632b4ddfebf74367",
+               "dataFormat" : "wav",
+               "format" : "",
+               "md5ext" : "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+               "name" : "pop",
+               "rate" : 44100,
+               "sampleCount" : 1032
+            }
+         ],
+         "variables" : {},
+         "visible" : true,
+         "volume" : 100,
+         "x" : -90,
+         "y" : 8
+      },
+      {
+         "blocks" : {
+            "!1!nS]Te?U,zuh[{^Mbz" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "tileType",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-tileType-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     1,
+                     [
+                        10,
+                        "3"
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "data_setvariableto",
+               "parent" : "leXb{G`KZ{m3X%!dT2ph",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "#.FLmDS8m]b%Gce;~Noh" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "sensing_mousex",
+               "parent" : "=AI*fkc/oYB?*MT=ARcs",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "#xzo^f6J:bf~h2wsp=fW" : {
+               "fields" : {},
+               "inputs" : {
+                  "OPERAND1" : [
+                     3,
+                     [
+                        12,
+                        "loadingFromSave",
+                        "w7Rv3%Yh,ZOg~;[q2,V/-loadingFromSave-"
+                     ],
+                     [
+                        10,
+                        ""
+                     ]
+                  ],
+                  "OPERAND2" : [
+                     1,
+                     [
+                        10,
+                        "0"
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_equals",
+               "parent" : "|HA6m2q%Q`jSf)xZZ029",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "%yVuS+sG1/+p4I|oRsEJ" : {
+               "fields" : {},
+               "inputs" : {
+                  "NUM" : [
+                     3,
+                     "=AI*fkc/oYB?*MT=ARcs",
+                     [
+                        4,
+                        10
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_round",
+               "parent" : "g.M3t/G74lhrb*vw(}8j",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            ")oDY]-E7711o+4#cM`6W" : {
+               "fields" : {
+                  "LIST" : [
+                     "save data",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-save data-list"
+                  ]
+               },
+               "inputs" : {
+                  "INDEX" : [
+                     3,
+                     [
+                        12,
+                        "tileID",
+                        "0Ckwn_K5nsP=%1fNv9T?-tileID-"
+                     ],
+                     [
+                        7,
+                        10
+                     ]
+                  ]
+               },
+               "next" : "6n#l1@:?D*ycMER{A4o%",
+               "opcode" : "data_deleteoflist",
+               "parent" : "`Y2RV=lprS5Z);FZ?aM^",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "+JO`}_?t^Z#^)cu5q(,;" : {
+               "fields" : {},
+               "inputs" : {
+                  "STRING1" : [
+                     3,
+                     [
+                        12,
+                        "tileX",
+                        "w7Rv3%Yh,ZOg~;[q2,V/-tileX-"
+                     ],
+                     [
+                        10,
+                        ""
+                     ]
+                  ],
+                  "STRING2" : [
+                     1,
+                     [
+                        10,
+                        ","
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_join",
+               "parent" : "m7^Ln@%fghcxD9PZ9qE8",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            ",RO?D3HLpR+Y9U5|;VXq" : {
+               "fields" : {
+                  "NUMBER_NAME" : [
+                     "number"
+                  ]
+               },
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "looks_costumenumbername",
+               "parent" : "C/ANE!*^L51RVYbVR-we",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            ".=%02!d2u#`Kd2HmA?b}" : {
+               "fields" : {},
+               "inputs" : {
+                  "COSTUME" : [
+                     1,
+                     "mi;gb,Qy-,e19ixxnK%V"
+                  ]
+               },
+               "next" : "^Q,rhiOVA;ok`xA]JD9:",
+               "opcode" : "looks_switchcostumeto",
+               "parent" : "20/Gs!j1]{hfw}SHm6~N",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "/iaiOHdJzOdj9y).qgR|" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "sensing_mousey",
+               "parent" : "UpNnO@Po%?eR9aL,J:N]",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "0O@_d))fx?,CWHY~|r*b" : {
+               "fields" : {},
+               "inputs" : {
+                  "X" : [
+                     3,
+                     "@cvt1A0;mY6dG/0@fM_!",
+                     [
+                        4,
+                        10
+                     ]
+                  ],
+                  "Y" : [
+                     3,
+                     "CHm0KKclEcnWS0V%SSe(",
+                     [
+                        4,
+                        10
+                     ]
+                  ]
+               },
+               "next" : "i2h;D2)ypH){9;X(fMfz",
+               "opcode" : "motion_gotoxy",
+               "parent" : ":G{]RC*fsF)6AXdm5ZP7",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "0oc_^dF~JrP+f*{7y-6g" : {
+               "fields" : {},
+               "inputs" : {
+                  "CONDITION" : [
+                     2,
+                     "}2U2MXoV,2nCEM|*{|))"
+                  ]
+               },
+               "next" : null,
+               "opcode" : "control_wait_until",
+               "parent" : "w]`zjO5b+-gf[h(wZ+rj",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "1kJ3Yc1#W{#-j.=?sb)(" : {
+               "fields" : {
+                  "LIST" : [
+                     "save data",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-save data-list"
+                  ]
+               },
+               "inputs" : {
+                  "ITEM" : [
+                     3,
+                     "E_~dT3F6SWTgZ:U;0QFS",
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "data_addtolist",
+               "parent" : "qz4q^3j`sIKqcO~#mA:k",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "20/Gs!j1]{hfw}SHm6~N" : {
+               "fields" : {},
+               "inputs" : {
+                  "DURATION" : [
+                     1,
+                     [
+                        5,
+                        1
+                     ]
+                  ]
+               },
+               "next" : ".=%02!d2u#`Kd2HmA?b}",
+               "opcode" : "control_wait",
+               "parent" : "|HA6m2q%Q`jSf)xZZ029",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "3Q7x!nW0h5Zenw{kJxs]" : {
+               "fields" : {
+                  "CLONE_OPTION" : [
+                     "_myself_"
+                  ]
+               },
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "control_create_clone_of_menu",
+               "parent" : "w]`zjO5b+-gf[h(wZ+rj",
+               "shadow" : true,
+               "topLevel" : false
+            },
+            "5SRU6jS4S6pkaJ0Ly~50" : {
+               "fields" : {},
+               "inputs" : {
+                  "TOUCHINGOBJECTMENU" : [
+                     1,
+                     "Ms:QA]v;[oTU/%=FfCUk"
+                  ]
+               },
+               "next" : null,
+               "opcode" : "sensing_touchingobject",
+               "parent" : "Z+P;%SeCZBI3/F!d=b%D",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "6n#l1@:?D*ycMER{A4o%" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "decrementID",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-decrementID-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     3,
+                     [
+                        12,
+                        "tileID",
+                        "0Ckwn_K5nsP=%1fNv9T?-tileID-"
+                     ],
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : "XB5ELE^D#~*|SxXx~~7P",
+               "opcode" : "data_setvariableto",
+               "parent" : ")oDY]-E7711o+4#cM`6W",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "7S)4+0qf5k/^xYHrfo*w" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "tileID",
+                     "0Ckwn_K5nsP=%1fNv9T?-tileID-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     3,
+                     [
+                        12,
+                        "nextTileID",
+                        "w7Rv3%Yh,ZOg~;[q2,V/-nextTileID-"
+                     ],
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : "s,Whb#/{~t9Wg|*5{c#2",
+               "opcode" : "data_setvariableto",
+               "parent" : "k=](BhXs*KN~vUD6Of(y",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "8YqZO}[ahIj|NfZH5sz8" : {
+               "fields" : {},
+               "inputs" : {
+                  "NUM" : [
+                     3,
+                     "DndR9J*DR@V4*TFbg7|u",
+                     [
+                        4,
+                        10
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_round",
+               "parent" : ";X`om#*/CilJElvhVKp(",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "9qatt[@qysyQS{NFe[W0" : {
+               "fields" : {
+                  "COSTUME" : [
+                     ""
+                  ]
+               },
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "looks_costume",
+               "parent" : "i2h;D2)ypH){9;X(fMfz",
+               "shadow" : true,
+               "topLevel" : false
+            },
+            ":G{]RC*fsF)6AXdm5ZP7" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : "0O@_d))fx?,CWHY~|r*b",
+               "opcode" : "looks_cleargraphiceffects",
+               "parent" : "j;[q{R6SV5g.zj^j2(Z1",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            ";X`om#*/CilJElvhVKp(" : {
+               "fields" : {},
+               "inputs" : {
+                  "NUM1" : [
+                     3,
+                     "8YqZO}[ahIj|NfZH5sz8",
+                     [
+                        4,
+                        10
+                     ]
+                  ],
+                  "NUM2" : [
+                     1,
+                     [
+                        4,
+                        7
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_add",
+               "parent" : "R7vR,[s{soeO}SL#HjJi",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "=AI*fkc/oYB?*MT=ARcs" : {
+               "fields" : {},
+               "inputs" : {
+                  "NUM1" : [
+                     3,
+                     "#.FLmDS8m]b%Gce;~Noh",
+                     [
+                        4,
+                        10
+                     ]
+                  ],
+                  "NUM2" : [
+                     1,
+                     [
+                        4,
+                        32
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_divide",
+               "parent" : "%yVuS+sG1/+p4I|oRsEJ",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "=i4~Ge{7OamPI[^!0GTS" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "sensing_mousedown",
+               "parent" : "}2U2MXoV,2nCEM|*{|))",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "@cvt1A0;mY6dG/0@fM_!" : {
+               "fields" : {},
+               "inputs" : {
+                  "NUM1" : [
+                     3,
+                     "}*`M}~i!6Q2*?CX-YzbG",
+                     [
+                        4,
+                        10
+                     ]
+                  ],
+                  "NUM2" : [
+                     1,
+                     [
+                        4,
+                        32
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_multiply",
+               "parent" : "0O@_d))fx?,CWHY~|r*b",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "AL_ox=QINvW15zVgq//(" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "tileType",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-tileType-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     1,
+                     [
+                        10,
+                        "1"
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "data_setvariableto",
+               "parent" : "Z?{skM%XyFp//_=G6xH0",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "C/ANE!*^L51RVYbVR-we" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "tileType",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-tileType-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     3,
+                     ",RO?D3HLpR+Y9U5|;VXq",
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : "w]`zjO5b+-gf[h(wZ+rj",
+               "opcode" : "data_setvariableto",
+               "parent" : "~CuVfg7?Pa_e{njNvR~N",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "CHm0KKclEcnWS0V%SSe(" : {
+               "fields" : {},
+               "inputs" : {
+                  "NUM1" : [
+                     3,
+                     "XJw}.=8=sXrh)@6VM(bh",
+                     [
+                        4,
+                        10
+                     ]
+                  ],
+                  "NUM2" : [
+                     1,
+                     [
+                        4,
+                        32
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_multiply",
+               "parent" : "0O@_d))fx?,CWHY~|r*b",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "DndR9J*DR@V4*TFbg7|u" : {
+               "fields" : {},
+               "inputs" : {
+                  "NUM1" : [
+                     3,
+                     "d0t9tf7M|77Zz5aXXKU.",
+                     [
+                        4,
+                        10
+                     ]
+                  ],
+                  "NUM2" : [
+                     1,
+                     [
+                        4,
+                        32
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_divide",
+               "parent" : "8YqZO}[ahIj|NfZH5sz8",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "E_~dT3F6SWTgZ:U;0QFS" : {
+               "fields" : {},
+               "inputs" : {
+                  "STRING1" : [
+                     3,
+                     "m7^Ln@%fghcxD9PZ9qE8",
+                     [
+                        10,
+                        ""
+                     ]
+                  ],
+                  "STRING2" : [
+                     3,
+                     [
+                        12,
+                        "tileType",
+                        "w7Rv3%Yh,ZOg~;[q2,V/-tileType-"
+                     ],
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_join",
+               "parent" : "1kJ3Yc1#W{#-j.=?sb)(",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "Hc%hh;T/5]aW^BH,D(|Y" : {
+               "fields" : {},
+               "inputs" : {
+                  "X" : [
+                     3,
+                     "g.M3t/G74lhrb*vw(}8j",
+                     [
+                        4,
+                        10
+                     ]
+                  ]
+               },
+               "next" : "l9dC3~[+1U+-+RM7#QCg",
+               "opcode" : "motion_setx",
+               "parent" : "PU#;Ewjq:L82L%[D~Pz2",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "ILI*-t%PW-lTJeJvFH|M" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : "UYAn|!#Pxex)`tNaFRw;",
+               "opcode" : "looks_show",
+               "parent" : "^Q,rhiOVA;ok`xA]JD9:",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "KEzKf|;s{V}Ss*^v,@k|" : {
+               "fields" : {},
+               "inputs" : {
+                  "NUM1" : [
+                     3,
+                     "X+*@*;LQ=o^2O.VOE^,n",
+                     [
+                        4,
+                        10
+                     ]
+                  ],
+                  "NUM2" : [
+                     1,
+                     [
+                        4,
+                        32
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_divide",
+               "parent" : "LB[/5uYAJr/qBspMN(Xy",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "LB[/5uYAJr/qBspMN(Xy" : {
+               "fields" : {},
+               "inputs" : {
+                  "NUM" : [
+                     3,
+                     "KEzKf|;s{V}Ss*^v,@k|",
+                     [
+                        4,
+                        10
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_round",
+               "parent" : "~gPvd%/6J`bFn.#LGLL0",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "Ms:QA]v;[oTU/%=FfCUk" : {
+               "fields" : {
+                  "TOUCHINGOBJECTMENU" : [
+                     "_mouse_"
+                  ]
+               },
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "sensing_touchingobjectmenu",
+               "parent" : "5SRU6jS4S6pkaJ0Ly~50",
+               "shadow" : true,
+               "topLevel" : false
+            },
+            "NFa7=B]]xVFc!vPSmnw%" : {
+               "fields" : {},
+               "inputs" : {
+                  "CONDITION" : [
+                     2,
+                     "TdF=eZJN.:iT/LP:uzaN"
+                  ],
+                  "SUBSTACK" : [
+                     2,
+                     "VKhV*;MB{;0KTT!8ZZc,"
+                  ]
+               },
+               "next" : null,
+               "opcode" : "control_if",
+               "parent" : "t;S(|X=SH[w?78Eg3KG7",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "PU#;Ewjq:L82L%[D~Pz2" : {
+               "fields" : {
+                  "EFFECT" : [
+                     "ghost"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     1,
+                     [
+                        4,
+                        50
+                     ]
+                  ]
+               },
+               "next" : "Hc%hh;T/5]aW^BH,D(|Y",
+               "opcode" : "looks_seteffectto",
+               "parent" : "YtZD,I(;isCN.XhVp[qu",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "R7vR,[s{soeO}SL#HjJi" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "tileX",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-tileX-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     3,
+                     ";X`om#*/CilJElvhVKp(",
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : "~CuVfg7?Pa_e{njNvR~N",
+               "opcode" : "data_setvariableto",
+               "parent" : "RaLY.F!^;-oMwaMc(mhR",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "RaLY.F!^;-oMwaMc(mhR" : {
+               "fields" : {},
+               "inputs" : {
+                  "CONDITION" : [
+                     2,
+                     "b~793qq1aqWT0+^F#tJA"
+                  ],
+                  "SUBSTACK" : [
+                     2,
+                     "YtZD,I(;isCN.XhVp[qu"
+                  ]
+               },
+               "next" : "R7vR,[s{soeO}SL#HjJi",
+               "opcode" : "control_repeat_until",
+               "parent" : "UYAn|!#Pxex)`tNaFRw;",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "TH|WDT#J?EArGE5L#ii:" : {
+               "fields" : {
+                  "KEY_OPTION" : [
+                     "2"
+                  ]
+               },
+               "inputs" : {},
+               "next" : "{pGOw-mrF4`u];R*1J[g",
+               "opcode" : "event_whenkeypressed",
+               "parent" : null,
+               "shadow" : false,
+               "topLevel" : true,
+               "x" : 486,
+               "y" : 1203
+            },
+            "TdF=eZJN.:iT/LP:uzaN" : {
+               "fields" : {},
+               "inputs" : {
+                  "OPERAND1" : [
+                     3,
+                     [
+                        12,
+                        "tileID",
+                        "0Ckwn_K5nsP=%1fNv9T?-tileID-"
+                     ],
+                     [
+                        10,
+                        ""
+                     ]
+                  ],
+                  "OPERAND2" : [
+                     3,
+                     [
+                        12,
+                        "decrementID",
+                        "w7Rv3%Yh,ZOg~;[q2,V/-decrementID-"
+                     ],
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_gt",
+               "parent" : "NFa7=B]]xVFc!vPSmnw%",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "UYAn|!#Pxex)`tNaFRw;" : {
+               "fields" : {},
+               "inputs" : {
+                  "SUBSTACK" : [
+                     2,
+                     "RaLY.F!^;-oMwaMc(mhR"
+                  ]
+               },
+               "next" : null,
+               "opcode" : "control_forever",
+               "parent" : "ILI*-t%PW-lTJeJvFH|M",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "UpNnO@Po%?eR9aL,J:N]" : {
+               "fields" : {},
+               "inputs" : {
+                  "NUM1" : [
+                     3,
+                     "/iaiOHdJzOdj9y).qgR|",
+                     [
+                        4,
+                        10
+                     ]
+                  ],
+                  "NUM2" : [
+                     1,
+                     [
+                        4,
+                        32
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_divide",
+               "parent" : "_q/KGlkf0}ynQWJn^p!@",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "VKhV*;MB{;0KTT!8ZZc," : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "tileID",
+                     "0Ckwn_K5nsP=%1fNv9T?-tileID-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     1,
+                     [
+                        4,
+                        -1
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "data_changevariableby",
+               "parent" : "NFa7=B]]xVFc!vPSmnw%",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "X+*@*;LQ=o^2O.VOE^,n" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "motion_yposition",
+               "parent" : "KEzKf|;s{V}Ss*^v,@k|",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "XB5ELE^D#~*|SxXx~~7P" : {
+               "fields" : {},
+               "inputs" : {
+                  "BROADCAST_INPUT" : [
+                     1,
+                     [
+                        11,
+                        "decrementID",
+                        "broadcastMsgId-decrementid"
+                     ]
+                  ]
+               },
+               "next" : "f1ds8!feBW?5,N:e4QD/",
+               "opcode" : "event_broadcast",
+               "parent" : "6n#l1@:?D*ycMER{A4o%",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "XJw}.=8=sXrh)@6VM(bh" : {
+               "fields" : {},
+               "inputs" : {
+                  "NUM1" : [
+                     3,
+                     [
+                        12,
+                        "tileY",
+                        "w7Rv3%Yh,ZOg~;[q2,V/-tileY-"
+                     ],
+                     [
+                        4,
+                        10
+                     ]
+                  ],
+                  "NUM2" : [
+                     1,
+                     [
+                        4,
+                        5
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_subtract",
+               "parent" : "CHm0KKclEcnWS0V%SSe(",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "YtZD,I(;isCN.XhVp[qu" : {
+               "fields" : {},
+               "inputs" : {
+                  "COSTUME" : [
+                     3,
+                     [
+                        12,
+                        "tileType",
+                        "w7Rv3%Yh,ZOg~;[q2,V/-tileType-"
+                     ],
+                     "ikg_7.*tHM%i0uwFmf:i"
+                  ]
+               },
+               "next" : "PU#;Ewjq:L82L%[D~Pz2",
+               "opcode" : "looks_switchcostumeto",
+               "parent" : "RaLY.F!^;-oMwaMc(mhR",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "Z+P;%SeCZBI3/F!d=b%D" : {
+               "fields" : {},
+               "inputs" : {
+                  "OPERAND1" : [
+                     2,
+                     "5SRU6jS4S6pkaJ0Ly~50"
+                  ],
+                  "OPERAND2" : [
+                     2,
+                     "m_h@Q`LH.oTLV:d[{!t]"
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_and",
+               "parent" : "`Y2RV=lprS5Z);FZ?aM^",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "Z?{skM%XyFp//_=G6xH0" : {
+               "fields" : {
+                  "KEY_OPTION" : [
+                     "1"
+                  ]
+               },
+               "inputs" : {},
+               "next" : "AL_ox=QINvW15zVgq//(",
+               "opcode" : "event_whenkeypressed",
+               "parent" : null,
+               "shadow" : false,
+               "topLevel" : true,
+               "x" : 483,
+               "y" : 1036
+            },
+            "]R?oJwsK@eXd.oJuX95U" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : "b;tS%G5U5}wP@2k~n2,v",
+               "opcode" : "event_whenflagclicked",
+               "parent" : null,
+               "shadow" : false,
+               "topLevel" : true,
+               "x" : 15,
+               "y" : 22
+            },
+            "^Q,rhiOVA;ok`xA]JD9:" : {
+               "fields" : {},
+               "inputs" : {
+                  "SIZE" : [
+                     1,
+                     [
+                        4,
+                        220
+                     ]
+                  ]
+               },
+               "next" : "ILI*-t%PW-lTJeJvFH|M",
+               "opcode" : "looks_setsizeto",
+               "parent" : ".=%02!d2u#`Kd2HmA?b}",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "_q/KGlkf0}ynQWJn^p!@" : {
+               "fields" : {},
+               "inputs" : {
+                  "NUM" : [
+                     3,
+                     "UpNnO@Po%?eR9aL,J:N]",
+                     [
+                        4,
+                        10
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_round",
+               "parent" : "y4hI)%w=`9Jtpwjf8WIH",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "`Y2RV=lprS5Z);FZ?aM^" : {
+               "fields" : {},
+               "inputs" : {
+                  "CONDITION" : [
+                     2,
+                     "Z+P;%SeCZBI3/F!d=b%D"
+                  ]
+               },
+               "next" : ")oDY]-E7711o+4#cM`6W",
+               "opcode" : "control_wait_until",
+               "parent" : "s,Whb#/{~t9Wg|*5{c#2",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "b#Z^,dudlBh6QAUVV+TH" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "copyComplete",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-copyComplete-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     1,
+                     [
+                        10,
+                        "1"
+                     ]
+                  ]
+               },
+               "next" : "k=](BhXs*KN~vUD6Of(y",
+               "opcode" : "data_setvariableto",
+               "parent" : "i2h;D2)ypH){9;X(fMfz",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "b;79X3%K1mF2rnBrx.YS" : {
+               "fields" : {
+                  "BROADCAST_OPTION" : [
+                     "game",
+                     "broadcastMsgId-game"
+                  ]
+               },
+               "inputs" : {},
+               "next" : "|HA6m2q%Q`jSf)xZZ029",
+               "opcode" : "event_whenbroadcastreceived",
+               "parent" : null,
+               "shadow" : false,
+               "topLevel" : true,
+               "x" : 15,
+               "y" : 183
+            },
+            "b;tS%G5U5}wP@2k~n2,v" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "looks_hide",
+               "parent" : "]R?oJwsK@eXd.oJuX95U",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "b~793qq1aqWT0+^F#tJA" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "sensing_mousedown",
+               "parent" : "RaLY.F!^;-oMwaMc(mhR",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "d0t9tf7M|77Zz5aXXKU." : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "motion_xposition",
+               "parent" : "DndR9J*DR@V4*TFbg7|u",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "ejX+|un)EPZ_;s)r1MDz" : {
+               "fields" : {
+                  "KEY_OPTION" : [
+                     "d"
+                  ]
+               },
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "sensing_keyoptions",
+               "parent" : "m_h@Q`LH.oTLV:d[{!t]",
+               "shadow" : true,
+               "topLevel" : false
+            },
+            "f1ds8!feBW?5,N:e4QD/" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "control_delete_this_clone",
+               "parent" : "XB5ELE^D#~*|SxXx~~7P",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "f4OuNzVy6+SqC`y+K~^J" : {
+               "fields" : {},
+               "inputs" : {
+                  "STRING1" : [
+                     3,
+                     [
+                        12,
+                        "tileY",
+                        "w7Rv3%Yh,ZOg~;[q2,V/-tileY-"
+                     ],
+                     [
+                        10,
+                        ""
+                     ]
+                  ],
+                  "STRING2" : [
+                     1,
+                     [
+                        10,
+                        ","
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_join",
+               "parent" : "m7^Ln@%fghcxD9PZ9qE8",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "g.M3t/G74lhrb*vw(}8j" : {
+               "fields" : {},
+               "inputs" : {
+                  "NUM1" : [
+                     3,
+                     "%yVuS+sG1/+p4I|oRsEJ",
+                     [
+                        4,
+                        10
+                     ]
+                  ],
+                  "NUM2" : [
+                     1,
+                     [
+                        4,
+                        32
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_multiply",
+               "parent" : "Hc%hh;T/5]aW^BH,D(|Y",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "i2h;D2)ypH){9;X(fMfz" : {
+               "fields" : {},
+               "inputs" : {
+                  "COSTUME" : [
+                     3,
+                     [
+                        12,
+                        "tileType",
+                        "w7Rv3%Yh,ZOg~;[q2,V/-tileType-"
+                     ],
+                     "9qatt[@qysyQS{NFe[W0"
+                  ]
+               },
+               "next" : "b#Z^,dudlBh6QAUVV+TH",
+               "opcode" : "looks_switchcostumeto",
+               "parent" : "0O@_d))fx?,CWHY~|r*b",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "ikg_7.*tHM%i0uwFmf:i" : {
+               "fields" : {
+                  "COSTUME" : [
+                     ""
+                  ]
+               },
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "looks_costume",
+               "parent" : "YtZD,I(;isCN.XhVp[qu",
+               "shadow" : true,
+               "topLevel" : false
+            },
+            "j;[q{R6SV5g.zj^j2(Z1" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : ":G{]RC*fsF)6AXdm5ZP7",
+               "opcode" : "control_start_as_clone",
+               "parent" : null,
+               "shadow" : false,
+               "topLevel" : true,
+               "x" : 483,
+               "y" : 22
+            },
+            "k=](BhXs*KN~vUD6Of(y" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : "7S)4+0qf5k/^xYHrfo*w",
+               "opcode" : "looks_show",
+               "parent" : "b#Z^,dudlBh6QAUVV+TH",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "l9dC3~[+1U+-+RM7#QCg" : {
+               "fields" : {},
+               "inputs" : {
+                  "Y" : [
+                     3,
+                     "y4hI)%w=`9Jtpwjf8WIH",
+                     [
+                        4,
+                        10
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "motion_sety",
+               "parent" : "Hc%hh;T/5]aW^BH,D(|Y",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "leXb{G`KZ{m3X%!dT2ph" : {
+               "fields" : {
+                  "KEY_OPTION" : [
+                     "3"
+                  ]
+               },
+               "inputs" : {},
+               "next" : "!1!nS]Te?U,zuh[{^Mbz",
+               "opcode" : "event_whenkeypressed",
+               "parent" : null,
+               "shadow" : false,
+               "topLevel" : true,
+               "x" : 489,
+               "y" : 1346
+            },
+            "m7^Ln@%fghcxD9PZ9qE8" : {
+               "fields" : {},
+               "inputs" : {
+                  "STRING1" : [
+                     3,
+                     "+JO`}_?t^Z#^)cu5q(,;",
+                     [
+                        10,
+                        ""
+                     ]
+                  ],
+                  "STRING2" : [
+                     3,
+                     "f4OuNzVy6+SqC`y+K~^J",
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_join",
+               "parent" : "E_~dT3F6SWTgZ:U;0QFS",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "m_h@Q`LH.oTLV:d[{!t]" : {
+               "fields" : {},
+               "inputs" : {
+                  "KEY_OPTION" : [
+                     1,
+                     "ejX+|un)EPZ_;s)r1MDz"
+                  ]
+               },
+               "next" : null,
+               "opcode" : "sensing_keypressed",
+               "parent" : "Z+P;%SeCZBI3/F!d=b%D",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "mi;gb,Qy-,e19ixxnK%V" : {
+               "fields" : {
+                  "COSTUME" : [
+                     "grass"
+                  ]
+               },
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "looks_costume",
+               "parent" : ".=%02!d2u#`Kd2HmA?b}",
+               "shadow" : true,
+               "topLevel" : false
+            },
+            "qz4q^3j`sIKqcO~#mA:k" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : "1kJ3Yc1#W{#-j.=?sb)(",
+               "opcode" : "control_start_as_clone",
+               "parent" : null,
+               "shadow" : false,
+               "topLevel" : true,
+               "x" : 656,
+               "y" : 638
+            },
+            "s,Whb#/{~t9Wg|*5{c#2" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "nextTileID",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-nextTileID-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     1,
+                     [
+                        4,
+                        1
+                     ]
+                  ]
+               },
+               "next" : "`Y2RV=lprS5Z);FZ?aM^",
+               "opcode" : "data_changevariableby",
+               "parent" : "7S)4+0qf5k/^xYHrfo*w",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "t;S(|X=SH[w?78Eg3KG7" : {
+               "fields" : {
+                  "BROADCAST_OPTION" : [
+                     "decrementID",
+                     "broadcastMsgId-decrementid"
+                  ]
+               },
+               "inputs" : {},
+               "next" : "NFa7=B]]xVFc!vPSmnw%",
+               "opcode" : "event_whenbroadcastreceived",
+               "parent" : null,
+               "shadow" : false,
+               "topLevel" : true,
+               "x" : 483,
+               "y" : 790
+            },
+            "w]`zjO5b+-gf[h(wZ+rj" : {
+               "fields" : {},
+               "inputs" : {
+                  "CLONE_OPTION" : [
+                     1,
+                     "3Q7x!nW0h5Zenw{kJxs]"
+                  ]
+               },
+               "next" : "0oc_^dF~JrP+f*{7y-6g",
+               "opcode" : "control_create_clone_of",
+               "parent" : "C/ANE!*^L51RVYbVR-we",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "y4hI)%w=`9Jtpwjf8WIH" : {
+               "fields" : {},
+               "inputs" : {
+                  "NUM1" : [
+                     3,
+                     "_q/KGlkf0}ynQWJn^p!@",
+                     [
+                        4,
+                        10
+                     ]
+                  ],
+                  "NUM2" : [
+                     1,
+                     [
+                        4,
+                        32
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_multiply",
+               "parent" : "l9dC3~[+1U+-+RM7#QCg",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "{pGOw-mrF4`u];R*1J[g" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "tileType",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-tileType-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     1,
+                     [
+                        10,
+                        "2"
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "data_setvariableto",
+               "parent" : "TH|WDT#J?EArGE5L#ii:",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "|HA6m2q%Q`jSf)xZZ029" : {
+               "fields" : {},
+               "inputs" : {
+                  "CONDITION" : [
+                     2,
+                     "#xzo^f6J:bf~h2wsp=fW"
+                  ]
+               },
+               "next" : "20/Gs!j1]{hfw}SHm6~N",
+               "opcode" : "control_wait_until",
+               "parent" : "b;79X3%K1mF2rnBrx.YS",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "}*`M}~i!6Q2*?CX-YzbG" : {
+               "fields" : {},
+               "inputs" : {
+                  "NUM1" : [
+                     3,
+                     [
+                        12,
+                        "tileX",
+                        "w7Rv3%Yh,ZOg~;[q2,V/-tileX-"
+                     ],
+                     [
+                        4,
+                        10
+                     ]
+                  ],
+                  "NUM2" : [
+                     1,
+                     [
+                        4,
+                        7
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_subtract",
+               "parent" : "@cvt1A0;mY6dG/0@fM_!",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "}2U2MXoV,2nCEM|*{|))" : {
+               "fields" : {},
+               "inputs" : {
+                  "OPERAND" : [
+                     2,
+                     "=i4~Ge{7OamPI[^!0GTS"
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_not",
+               "parent" : "0oc_^dF~JrP+f*{7y-6g",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "~CuVfg7?Pa_e{njNvR~N" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "tileY",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-tileY-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     3,
+                     "~gPvd%/6J`bFn.#LGLL0",
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : "C/ANE!*^L51RVYbVR-we",
+               "opcode" : "data_setvariableto",
+               "parent" : "R7vR,[s{soeO}SL#HjJi",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "~gPvd%/6J`bFn.#LGLL0" : {
+               "fields" : {},
+               "inputs" : {
+                  "NUM1" : [
+                     3,
+                     "LB[/5uYAJr/qBspMN(Xy",
+                     [
+                        4,
+                        10
+                     ]
+                  ],
+                  "NUM2" : [
+                     1,
+                     [
+                        4,
+                        5
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_add",
+               "parent" : "~CuVfg7?Pa_e{njNvR~N",
+               "shadow" : false,
+               "topLevel" : false
+            }
+         },
+         "broadcasts" : {},
+         "comments" : {},
+         "costumes" : [
+            {
+               "assetId" : "0d14d60b07a6db990f13bc3b1eca4500",
+               "bitmapResolution" : 2,
+               "dataFormat" : "png",
+               "md5ext" : "0d14d60b07a6db990f13bc3b1eca4500.png",
+               "name" : "grass",
+               "rotationCenterX" : 16,
+               "rotationCenterY" : 14
+            },
+            {
+               "assetId" : "64353f86eb2ed83ebbd87776493526ad",
+               "bitmapResolution" : 2,
+               "dataFormat" : "png",
+               "md5ext" : "64353f86eb2ed83ebbd87776493526ad.png",
+               "name" : "stone",
+               "rotationCenterX" : 16,
+               "rotationCenterY" : 14
+            },
+            {
+               "assetId" : "8f291b9769c74d8f4e136a18a67ea2c9",
+               "bitmapResolution" : 2,
+               "dataFormat" : "png",
+               "md5ext" : "8f291b9769c74d8f4e136a18a67ea2c9.png",
+               "name" : "soil",
+               "rotationCenterX" : 16,
+               "rotationCenterY" : 14
+            }
+         ],
+         "currentCostume" : 2,
+         "direction" : 90,
+         "draggable" : false,
+         "isStage" : false,
+         "layerOrder" : 4,
+         "lists" : {},
+         "name" : "Tiles",
+         "rotationStyle" : "all around",
+         "size" : 220,
+         "sounds" : [
+            {
+               "assetId" : "83a9787d4cb6f3b7632b4ddfebf74367",
+               "dataFormat" : "wav",
+               "format" : "",
+               "md5ext" : "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+               "name" : "pop",
+               "rate" : 44100,
+               "sampleCount" : 1032
+            }
+         ],
+         "variables" : {
+            "0Ckwn_K5nsP=%1fNv9T?-tileID-" : [
+               "tileID",
+               0
+            ]
+         },
+         "visible" : false,
+         "volume" : 100,
+         "x" : 242,
+         "y" : 96
+      },
+      {
+         "blocks" : {
+            "-xAj%XcmLv)oT^OZ}-/T" : {
+               "fields" : {},
+               "inputs" : {
+                  "OPERAND1" : [
+                     3,
+                     [
+                        12,
+                        "saveCounter",
+                        "w7Rv3%Yh,ZOg~;[q2,V/-saveCounter-"
+                     ],
+                     [
+                        10,
+                        ""
+                     ]
+                  ],
+                  "OPERAND2" : [
+                     3,
+                     "oMTzfaeubc;/#pYadY|4",
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_gt",
+               "parent" : "~I[`!Kt(w?:q6|I@2JFQ",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "0xU~=klK1TuQyrgi0{fS" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "saveCounter",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-saveCounter-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     1,
+                     [
+                        10,
+                        "2"
+                     ]
+                  ]
+               },
+               "next" : "~I[`!Kt(w?:q6|I@2JFQ",
+               "opcode" : "data_setvariableto",
+               "parent" : "vSpj~(vC?Pbue[:r.;Gm",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "=Tk?7m6*:(vVsn^M;`:S" : {
+               "fields" : {
+                  "LIST" : [
+                     "Copy this into a text file",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-Copy this into a text file-list"
+                  ]
+               },
+               "inputs" : {},
+               "next" : "s@II_QSy;d.wI]NsR31n",
+               "opcode" : "data_hidelist",
+               "parent" : "_pwG`^C!t6#)T~yAsGI!",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "Bp1Lhv*pA(.`C;lo7iPE" : {
+               "fields" : {
+                  "KEY_OPTION" : [
+                     "s"
+                  ]
+               },
+               "inputs" : {},
+               "next" : "vSpj~(vC?Pbue[:r.;Gm",
+               "opcode" : "event_whenkeypressed",
+               "parent" : null,
+               "shadow" : false,
+               "topLevel" : true,
+               "x" : 15,
+               "y" : 279
+            },
+            "G)%%#qkBE^mzyY^`[zr7" : {
+               "fields" : {
+                  "LIST" : [
+                     "Copy this into a text file",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-Copy this into a text file-list"
+                  ]
+               },
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "data_showlist",
+               "parent" : "~J{4xP1LmK7+Jg/1)~}:",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "ISJR)s0iw6RKH~~F?,tL" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : "_pwG`^C!t6#)T~yAsGI!",
+               "opcode" : "event_whenflagclicked",
+               "parent" : null,
+               "shadow" : false,
+               "topLevel" : true,
+               "x" : 15,
+               "y" : 22
+            },
+            "N{YKiz_o~STlr`MD/`f2" : {
+               "fields" : {
+                  "LIST" : [
+                     "Copy this into a text file",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-Copy this into a text file-list"
+                  ]
+               },
+               "inputs" : {},
+               "next" : "y/n@o`P(7Qk,#suaG[qf",
+               "opcode" : "data_hidelist",
+               "parent" : "v])Ke~i,6Voz+mZ?;Qks",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "Q%+#d2MWWwOJNh{v^yYR" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "saveCounter",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-saveCounter-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     1,
+                     [
+                        4,
+                        1
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "data_changevariableby",
+               "parent" : "z=S%r-IA/Cvb7FPS]Wlt",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "SYa@eWLYfZ;Tbdvhr;:4" : {
+               "fields" : {
+                  "LIST" : [
+                     "save data",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-save data-list"
+                  ]
+               },
+               "inputs" : {
+                  "INDEX" : [
+                     1,
+                     [
+                        7,
+                        1
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "data_itemoflist",
+               "parent" : "vSpj~(vC?Pbue[:r.;Gm",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "VB)b2yBX?kN;m/DchspT" : {
+               "fields" : {},
+               "inputs" : {
+                  "STRING1" : [
+                     3,
+                     [
+                        12,
+                        "assemblingSave",
+                        "w7Rv3%Yh,ZOg~;[q2,V/-assemblingSave-"
+                     ],
+                     [
+                        10,
+                        ""
+                     ]
+                  ],
+                  "STRING2" : [
+                     3,
+                     "n{s+%y1e=II^co`Cx+em",
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_join",
+               "parent" : "z=S%r-IA/Cvb7FPS]Wlt",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "_pwG`^C!t6#)T~yAsGI!" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : "=Tk?7m6*:(vVsn^M;`:S",
+               "opcode" : "looks_hide",
+               "parent" : "ISJR)s0iw6RKH~~F?,tL",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "n{s+%y1e=II^co`Cx+em" : {
+               "fields" : {},
+               "inputs" : {
+                  "STRING1" : [
+                     1,
+                     [
+                        10,
+                        "."
+                     ]
+                  ],
+                  "STRING2" : [
+                     3,
+                     "z,OISn+U(g]ZSF7^#G+j",
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_join",
+               "parent" : "VB)b2yBX?kN;m/DchspT",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "oMTzfaeubc;/#pYadY|4" : {
+               "fields" : {
+                  "LIST" : [
+                     "save data",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-save data-list"
+                  ]
+               },
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "data_lengthoflist",
+               "parent" : "-xAj%XcmLv)oT^OZ}-/T",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "s@II_QSy;d.wI]NsR31n" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "saveCounter",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-saveCounter-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     1,
+                     [
+                        10,
+                        0
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "data_setvariableto",
+               "parent" : "=Tk?7m6*:(vVsn^M;`:S",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "vSpj~(vC?Pbue[:r.;Gm" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "assemblingSave",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-assemblingSave-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     3,
+                     "SYa@eWLYfZ;Tbdvhr;:4",
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : "0xU~=klK1TuQyrgi0{fS",
+               "opcode" : "data_setvariableto",
+               "parent" : "Bp1Lhv*pA(.`C;lo7iPE",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "v])Ke~i,6Voz+mZ?;Qks" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : "N{YKiz_o~STlr`MD/`f2",
+               "opcode" : "event_whenthisspriteclicked",
+               "parent" : null,
+               "shadow" : false,
+               "topLevel" : true,
+               "x" : 15,
+               "y" : 803
+            },
+            "y/n@o`P(7Qk,#suaG[qf" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "looks_hide",
+               "parent" : "N{YKiz_o~STlr`MD/`f2",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "z,OISn+U(g]ZSF7^#G+j" : {
+               "fields" : {
+                  "LIST" : [
+                     "save data",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-save data-list"
+                  ]
+               },
+               "inputs" : {
+                  "INDEX" : [
+                     3,
+                     [
+                        12,
+                        "saveCounter",
+                        "w7Rv3%Yh,ZOg~;[q2,V/-saveCounter-"
+                     ],
+                     [
+                        7,
+                        10
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "data_itemoflist",
+               "parent" : "n{s+%y1e=II^co`Cx+em",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "z=S%r-IA/Cvb7FPS]Wlt" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "assemblingSave",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-assemblingSave-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     3,
+                     "VB)b2yBX?kN;m/DchspT",
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : "Q%+#d2MWWwOJNh{v^yYR",
+               "opcode" : "data_setvariableto",
+               "parent" : "~I[`!Kt(w?:q6|I@2JFQ",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "~I[`!Kt(w?:q6|I@2JFQ" : {
+               "fields" : {},
+               "inputs" : {
+                  "CONDITION" : [
+                     2,
+                     "-xAj%XcmLv)oT^OZ}-/T"
+                  ],
+                  "SUBSTACK" : [
+                     2,
+                     "z=S%r-IA/Cvb7FPS]Wlt"
+                  ]
+               },
+               "next" : "~J{4xP1LmK7+Jg/1)~}:",
+               "opcode" : "control_repeat_until",
+               "parent" : "0xU~=klK1TuQyrgi0{fS",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "~J{4xP1LmK7+Jg/1)~}:" : {
+               "fields" : {
+                  "LIST" : [
+                     "Copy this into a text file",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-Copy this into a text file-list"
+                  ]
+               },
+               "inputs" : {
+                  "ITEM" : [
+                     3,
+                     [
+                        12,
+                        "assemblingSave",
+                        "w7Rv3%Yh,ZOg~;[q2,V/-assemblingSave-"
+                     ],
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : "G)%%#qkBE^mzyY^`[zr7",
+               "opcode" : "data_addtolist",
+               "parent" : "~I[`!Kt(w?:q6|I@2JFQ",
+               "shadow" : false,
+               "topLevel" : false
+            }
+         },
+         "broadcasts" : {},
+         "comments" : {},
+         "costumes" : [
+            {
+               "assetId" : "252d0b20fe14e11d4c3bcf0b8eb9ad06",
+               "bitmapResolution" : 1,
+               "dataFormat" : "svg",
+               "md5ext" : "252d0b20fe14e11d4c3bcf0b8eb9ad06.svg",
+               "name" : "save",
+               "rotationCenterX" : 238,
+               "rotationCenterY" : -135
+            }
+         ],
+         "currentCostume" : 0,
+         "direction" : 90,
+         "draggable" : false,
+         "isStage" : false,
+         "layerOrder" : 3,
+         "lists" : {},
+         "name" : "save",
+         "rotationStyle" : "all around",
+         "size" : 100,
+         "sounds" : [
+            {
+               "assetId" : "83a9787d4cb6f3b7632b4ddfebf74367",
+               "dataFormat" : "wav",
+               "format" : "",
+               "md5ext" : "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+               "name" : "pop",
+               "rate" : 44100,
+               "sampleCount" : 1032
+            }
+         ],
+         "variables" : {},
+         "visible" : false,
+         "volume" : 100,
+         "x" : -2,
+         "y" : -7
+      },
+      {
+         "blocks" : {
+            "%@Df],Tx~!HN2_hB*r4G" : {
+               "fields" : {
+                  "STOP_OPTION" : [
+                     "all"
+                  ]
+               },
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "control_stop",
+               "parent" : "~(iI3%kbGq~;Nv8HzbN3",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "%QE_aBHScO}XI(SJ;u`O" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "sensing_answer",
+               "parent" : "5dk@pXG7_r*ZMYc/7%}D",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "(5-60,OsAPd9;^YqBU!T" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : ":rWk^1n!k^{#9/FeTA3e",
+               "opcode" : "event_whenthisspriteclicked",
+               "parent" : null,
+               "shadow" : false,
+               "topLevel" : true,
+               "x" : 15,
+               "y" : 328
+            },
+            "*z8R*zWIHwDO=v5)|@)N" : {
+               "fields" : {},
+               "inputs" : {
+                  "STRING1" : [
+                     3,
+                     [
+                        12,
+                        "tileY",
+                        "w7Rv3%Yh,ZOg~;[q2,V/-tileY-"
+                     ],
+                     [
+                        10,
+                        ""
+                     ]
+                  ],
+                  "STRING2" : [
+                     3,
+                     "lIdlAr=)4#67NW;yO.!c",
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_join",
+               "parent" : "eC^d|tZd`M2FsHD%R%a2",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "+M6#)^Wlfpi{hkZgTK[:" : {
+               "fields" : {},
+               "inputs" : {
+                  "STRING" : [
+                     3,
+                     "w?i~.sDN@Di}p!qou-7:",
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_length",
+               "parent" : ",I-@aARb-LWND}q)eCuP",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            ",I-@aARb-LWND}q)eCuP" : {
+               "fields" : {},
+               "inputs" : {
+                  "OPERAND1" : [
+                     3,
+                     [
+                        12,
+                        "saveCounter",
+                        "w7Rv3%Yh,ZOg~;[q2,V/-saveCounter-"
+                     ],
+                     [
+                        10,
+                        ""
+                     ]
+                  ],
+                  "OPERAND2" : [
+                     3,
+                     "+M6#)^Wlfpi{hkZgTK[:",
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_gt",
+               "parent" : "GXln7ib)ex6e~nK:NB=_",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "/^a}0VatFGeGLtIQS+#1" : {
+               "fields" : {},
+               "inputs" : {
+                  "OPERAND1" : [
+                     3,
+                     [
+                        12,
+                        "currentAssembleVariable",
+                        "w7Rv3%Yh,ZOg~;[q2,V/-currentAssembleVariable-"
+                     ],
+                     [
+                        10,
+                        ""
+                     ]
+                  ],
+                  "OPERAND2" : [
+                     1,
+                     [
+                        10,
+                        "0"
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_equals",
+               "parent" : "e~}tOY(c_-uy04]H8i8Z",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "1ofZ:Ho:C`lSx|lyRIIg" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "looks_hide",
+               "parent" : "vz4dm+CvdnRn8nKgRAor",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "5dk@pXG7_r*ZMYc/7%}D" : {
+               "fields" : {},
+               "inputs" : {
+                  "LETTER" : [
+                     3,
+                     [
+                        12,
+                        "saveCounter",
+                        "w7Rv3%Yh,ZOg~;[q2,V/-saveCounter-"
+                     ],
+                     [
+                        6,
+                        10
+                     ]
+                  ],
+                  "STRING" : [
+                     3,
+                     "%QE_aBHScO}XI(SJ;u`O",
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_letter_of",
+               "parent" : "o0@k`54wUA,)!60^Z6N2",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "7UL*5kaui5h,a);OMQBO" : {
+               "fields" : {},
+               "inputs" : {
+                  "OPERAND1" : [
+                     3,
+                     [
+                        12,
+                        "currentAssembleVariable",
+                        "w7Rv3%Yh,ZOg~;[q2,V/-currentAssembleVariable-"
+                     ],
+                     [
+                        10,
+                        ""
+                     ]
+                  ],
+                  "OPERAND2" : [
+                     1,
+                     [
+                        10,
+                        "1"
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_equals",
+               "parent" : "~w9.!(8X+/j/wb1C:RW9",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "9,Dj5jxT^rNSOJ6+c]m:" : {
+               "fields" : {},
+               "inputs" : {
+                  "LETTER" : [
+                     3,
+                     [
+                        12,
+                        "saveCounter",
+                        "w7Rv3%Yh,ZOg~;[q2,V/-saveCounter-"
+                     ],
+                     [
+                        6,
+                        10
+                     ]
+                  ],
+                  "STRING" : [
+                     3,
+                     "GZT=k4X=H5oDg=MAZ%Yx",
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_letter_of",
+               "parent" : "dXPPa~*G7^JDMH0Q:14`",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            ":rWk^1n!k^{#9/FeTA3e" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "loadingFromSave",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-loadingFromSave-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     1,
+                     [
+                        10,
+                        "1"
+                     ]
+                  ]
+               },
+               "next" : "dNA{VMz5a8tRKEx-}xH1",
+               "opcode" : "data_setvariableto",
+               "parent" : "(5-60,OsAPd9;^YqBU!T",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "@my6-g(cRNtl1.m(TC9#" : {
+               "fields" : {},
+               "inputs" : {
+                  "CONDITION" : [
+                     2,
+                     "It`q)iv,`jHKS]m#=.+U"
+                  ]
+               },
+               "next" : "pP/glwn;%rM-RX#PCqGV",
+               "opcode" : "control_wait_until",
+               "parent" : "}{FMpibA)kQ?0IRQ7R=m",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "BzA2mmq7b%WL24k7#.rY" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "sensing_answer",
+               "parent" : "D1GK1q6-uqnObFi-y[C/",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "CS-uFl1VqY6-MK`uoDX~" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "currentAssembleVariable",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-currentAssembleVariable-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     1,
+                     [
+                        4,
+                        1
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "data_changevariableby",
+               "parent" : "R-(cP1,gaL562:;g*!.f",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "C[})/.40)x*;4CE6:t;B" : {
+               "fields" : {},
+               "inputs" : {
+                  "CONDITION" : [
+                     2,
+                     "u`Y~L6)f+|V{-^^=^jkc"
+                  ],
+                  "SUBSTACK" : [
+                     2,
+                     "e~}tOY(c_-uy04]H8i8Z"
+                  ],
+                  "SUBSTACK2" : [
+                     2,
+                     "MZ7weRIG%8bQ~J-JwD?S"
+                  ]
+               },
+               "next" : null,
+               "opcode" : "control_if_else",
+               "parent" : "O=#uXK_Ja#FN0qL4G!)x",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "C}gvxd=:8)Z[3RL:WK+`" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : "b.54`vaJ`%|rsJOW1?o-",
+               "opcode" : "event_whenflagclicked",
+               "parent" : null,
+               "shadow" : false,
+               "topLevel" : true,
+               "x" : 15,
+               "y" : 22
+            },
+            "D1GK1q6-uqnObFi-y[C/" : {
+               "fields" : {},
+               "inputs" : {
+                  "LETTER" : [
+                     3,
+                     [
+                        12,
+                        "saveCounter",
+                        "w7Rv3%Yh,ZOg~;[q2,V/-saveCounter-"
+                     ],
+                     [
+                        6,
+                        10
+                     ]
+                  ],
+                  "STRING" : [
+                     3,
+                     "BzA2mmq7b%WL24k7#.rY",
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_letter_of",
+               "parent" : "~ZEP?%c=zxO0m#55((Ie",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "EQnVU:|-A.fqtv`8NRA[" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "tileX",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-tileX-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     1,
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : "V7h9g[iY{j4Mq){}}_Z2",
+               "opcode" : "data_setvariableto",
+               "parent" : "}!M^D,G`uvVb5,ImJ6Q2",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "Ef?xKp7sz8J!o~wd`F=]" : {
+               "fields" : {},
+               "inputs" : {
+                  "OPERAND1" : [
+                     3,
+                     "XH.V{Is8(b4gKal[*Y!4",
+                     [
+                        10,
+                        ""
+                     ]
+                  ],
+                  "OPERAND2" : [
+                     1,
+                     [
+                        10,
+                        "-1"
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_gt",
+               "parent" : "u`Y~L6)f+|V{-^^=^jkc",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "GXln7ib)ex6e~nK:NB=_" : {
+               "fields" : {},
+               "inputs" : {
+                  "CONDITION" : [
+                     2,
+                     ",I-@aARb-LWND}q)eCuP"
+                  ],
+                  "SUBSTACK" : [
+                     2,
+                     "R-(cP1,gaL562:;g*!.f"
+                  ]
+               },
+               "next" : "M%1|Tu^GHJI0}%83T).V",
+               "opcode" : "control_repeat_until",
+               "parent" : "ej;4u35h8))t1tzX3q(5",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "GZT=k4X=H5oDg=MAZ%Yx" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "sensing_answer",
+               "parent" : "9,Dj5jxT^rNSOJ6+c]m:",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "HkEBC_S}*!im@b6ymQE3" : {
+               "fields" : {},
+               "inputs" : {
+                  "DURATION" : [
+                     1,
+                     [
+                        5,
+                        1
+                     ]
+                  ]
+               },
+               "next" : "QZO`c.Zc4_,F:-2^x4sZ",
+               "opcode" : "control_wait",
+               "parent" : "dNA{VMz5a8tRKEx-}xH1",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "It`q)iv,`jHKS]m#=.+U" : {
+               "fields" : {},
+               "inputs" : {
+                  "OPERAND1" : [
+                     3,
+                     [
+                        12,
+                        "copyComplete",
+                        "w7Rv3%Yh,ZOg~;[q2,V/-copyComplete-"
+                     ],
+                     [
+                        10,
+                        ""
+                     ]
+                  ],
+                  "OPERAND2" : [
+                     1,
+                     [
+                        10,
+                        "1"
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_equals",
+               "parent" : "@my6-g(cRNtl1.m(TC9#",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "K|OX+.Se3otf#)+A*-LA" : {
+               "fields" : {},
+               "inputs" : {
+                  "BROADCAST_INPUT" : [
+                     1,
+                     [
+                        11,
+                        "game",
+                        "broadcastMsgId-game"
+                     ]
+                  ]
+               },
+               "next" : "h0^NWZjpEzP%}r1zmY-V",
+               "opcode" : "event_broadcast",
+               "parent" : "QZO`c.Zc4_,F:-2^x4sZ",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "L0RoG1vF-8Nl{(;/f88M" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "saveCounter",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-saveCounter-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     1,
+                     [
+                        4,
+                        1
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "data_changevariableby",
+               "parent" : "R-(cP1,gaL562:;g*!.f",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "Lwf(7N,DM}eD,uuOLNlA" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "sensing_answer",
+               "parent" : "j1lCIzIks[Gt}v[FU9n9",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "M%1|Tu^GHJI0}%83T).V" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "loadingFromSave",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-loadingFromSave-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     1,
+                     [
+                        10,
+                        0
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "data_setvariableto",
+               "parent" : "GXln7ib)ex6e~nK:NB=_",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "MKN7v!TqRkHB;AI#GH]]" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "sensing_answer",
+               "parent" : "jH1,p.+mNPSVd;Vse;GI",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "MZ7weRIG%8bQ~J-JwD?S" : {
+               "fields" : {},
+               "inputs" : {
+                  "MESSAGE" : [
+                     1,
+                     [
+                        10,
+                        "Malformed save code."
+                     ]
+                  ],
+                  "SECS" : [
+                     1,
+                     [
+                        4,
+                        3
+                     ]
+                  ]
+               },
+               "next" : "wSN0p+rM#=QBcE)df`J^",
+               "opcode" : "looks_sayforsecs",
+               "parent" : "C[})/.40)x*;4CE6:t;B",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "Nr=t(1Z0d}5[qRQ=.sdB" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "tileType",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-tileType-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     1,
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : "ZueHQB@GmR*1a|T11x[c",
+               "opcode" : "data_setvariableto",
+               "parent" : "skjQs}wiZIOcbU1:7H=Z",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "NuTXQO4wsAw_(8+.}da-" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "sensing_answer",
+               "parent" : "XH.V{Is8(b4gKal[*Y!4",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "O#b,xN1Z~bTa*ujoh|k(" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "tileX",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-tileX-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     3,
+                     "Y4=C,6H(]g/pIdtl5`2I",
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "data_setvariableto",
+               "parent" : "e~}tOY(c_-uy04]H8i8Z",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "O=#uXK_Ja#FN0qL4G!)x" : {
+               "fields" : {},
+               "inputs" : {
+                  "CONDITION" : [
+                     2,
+                     "o0@k`54wUA,)!60^Z6N2"
+                  ],
+                  "SUBSTACK" : [
+                     2,
+                     "hN5.2-}DxT0_7gSe7GF9"
+                  ],
+                  "SUBSTACK2" : [
+                     2,
+                     "C[})/.40)x*;4CE6:t;B"
+                  ]
+               },
+               "next" : null,
+               "opcode" : "control_if_else",
+               "parent" : "R-(cP1,gaL562:;g*!.f",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "QZO`c.Zc4_,F:-2^x4sZ" : {
+               "fields" : {},
+               "inputs" : {
+                  "BACKDROP" : [
+                     1,
+                     "aqgyzZJk|M[@%fe-oHU{"
+                  ]
+               },
+               "next" : "K|OX+.Se3otf#)+A*-LA",
+               "opcode" : "looks_switchbackdropto",
+               "parent" : "HkEBC_S}*!im@b6ymQE3",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "Qa=hITIn^}wb{1u!!+6n" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "sensing_answer",
+               "parent" : "lIdlAr=)4#67NW;yO.!c",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "R-(cP1,gaL562:;g*!.f" : {
+               "fields" : {},
+               "inputs" : {
+                  "CONDITION" : [
+                     2,
+                     "~ZEP?%c=zxO0m#55((Ie"
+                  ],
+                  "SUBSTACK" : [
+                     2,
+                     "CS-uFl1VqY6-MK`uoDX~"
+                  ],
+                  "SUBSTACK2" : [
+                     2,
+                     "O=#uXK_Ja#FN0qL4G!)x"
+                  ]
+               },
+               "next" : "L0RoG1vF-8Nl{(;/f88M",
+               "opcode" : "control_if_else",
+               "parent" : "GXln7ib)ex6e~nK:NB=_",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "S1pO?krr|~)7+Z6}D0y/" : {
+               "fields" : {},
+               "inputs" : {
+                  "DURATION" : [
+                     1,
+                     [
+                        5,
+                        0.5
+                     ]
+                  ]
+               },
+               "next" : "fM|{;E-WG*o@Q.N9+,[k",
+               "opcode" : "control_wait",
+               "parent" : "b.54`vaJ`%|rsJOW1?o-",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "S?8#K6,^]c8/ZmB!f?Ao" : {
+               "fields" : {
+                  "CLONE_OPTION" : [
+                     "Tiles"
+                  ]
+               },
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "control_create_clone_of_menu",
+               "parent" : "}{FMpibA)kQ?0IRQ7R=m",
+               "shadow" : true,
+               "topLevel" : false
+            },
+            "U_Am^/^K#%72(J9U{Z*0" : {
+               "fields" : {},
+               "inputs" : {
+                  "CONDITION" : [
+                     2,
+                     "vS)qMUO*LhfD;;lBo.pN"
+                  ],
+                  "SUBSTACK" : [
+                     2,
+                     "ye#4gjXzz1dE=4M/TL`%"
+                  ],
+                  "SUBSTACK2" : [
+                     2,
+                     "~(iI3%kbGq~;Nv8HzbN3"
+                  ]
+               },
+               "next" : null,
+               "opcode" : "control_if_else",
+               "parent" : "~w9.!(8X+/j/wb1C:RW9",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "V7h9g[iY{j4Mq){}}_Z2" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "tileY",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-tileY-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     1,
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : "ej;4u35h8))t1tzX3q(5",
+               "opcode" : "data_setvariableto",
+               "parent" : "EQnVU:|-A.fqtv`8NRA[",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "XH.V{Is8(b4gKal[*Y!4" : {
+               "fields" : {},
+               "inputs" : {
+                  "LETTER" : [
+                     3,
+                     [
+                        12,
+                        "saveCounter",
+                        "w7Rv3%Yh,ZOg~;[q2,V/-saveCounter-"
+                     ],
+                     [
+                        6,
+                        10
+                     ]
+                  ],
+                  "STRING" : [
+                     3,
+                     "NuTXQO4wsAw_(8+.}da-",
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_letter_of",
+               "parent" : "Ef?xKp7sz8J!o~wd`F=]",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "Y4=C,6H(]g/pIdtl5`2I" : {
+               "fields" : {},
+               "inputs" : {
+                  "STRING1" : [
+                     3,
+                     [
+                        12,
+                        "tileX",
+                        "w7Rv3%Yh,ZOg~;[q2,V/-tileX-"
+                     ],
+                     [
+                        10,
+                        ""
+                     ]
+                  ],
+                  "STRING2" : [
+                     3,
+                     "jH1,p.+mNPSVd;Vse;GI",
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_join",
+               "parent" : "O#b,xN1Z~bTa*ujoh|k(",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "ZueHQB@GmR*1a|T11x[c" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "currentAssembleVariable",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-currentAssembleVariable-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     1,
+                     [
+                        10,
+                        0
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "data_setvariableto",
+               "parent" : "Nr=t(1Z0d}5[qRQ=.sdB",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "aqgyzZJk|M[@%fe-oHU{" : {
+               "fields" : {
+                  "BACKDROP" : [
+                     "game"
+                  ]
+               },
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "looks_backdrops",
+               "parent" : "QZO`c.Zc4_,F:-2^x4sZ",
+               "shadow" : true,
+               "topLevel" : false
+            },
+            "b.54`vaJ`%|rsJOW1?o-" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : "S1pO?krr|~)7+Z6}D0y/",
+               "opcode" : "looks_hide",
+               "parent" : "C}gvxd=:8)Z[3RL:WK+`",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "bAOu{FQAUaid6I)wfJ~c" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "looks_show",
+               "parent" : "fM|{;E-WG*o@Q.N9+,[k",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "dNA{VMz5a8tRKEx-}xH1" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : "HkEBC_S}*!im@b6ymQE3",
+               "opcode" : "looks_hide",
+               "parent" : ":rWk^1n!k^{#9/FeTA3e",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "dXPPa~*G7^JDMH0Q:14`" : {
+               "fields" : {},
+               "inputs" : {
+                  "STRING1" : [
+                     3,
+                     [
+                        12,
+                        "tileType",
+                        "w7Rv3%Yh,ZOg~;[q2,V/-tileType-"
+                     ],
+                     [
+                        10,
+                        ""
+                     ]
+                  ],
+                  "STRING2" : [
+                     3,
+                     "9,Dj5jxT^rNSOJ6+c]m:",
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_join",
+               "parent" : "ye#4gjXzz1dE=4M/TL`%",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "eC^d|tZd`M2FsHD%R%a2" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "tileY",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-tileY-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     3,
+                     "*z8R*zWIHwDO=v5)|@)N",
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "data_setvariableto",
+               "parent" : "~w9.!(8X+/j/wb1C:RW9",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "ej;4u35h8))t1tzX3q(5" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "tileType",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-tileType-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     1,
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : "GXln7ib)ex6e~nK:NB=_",
+               "opcode" : "data_setvariableto",
+               "parent" : "V7h9g[iY{j4Mq){}}_Z2",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "e~}tOY(c_-uy04]H8i8Z" : {
+               "fields" : {},
+               "inputs" : {
+                  "CONDITION" : [
+                     2,
+                     "/^a}0VatFGeGLtIQS+#1"
+                  ],
+                  "SUBSTACK" : [
+                     2,
+                     "O#b,xN1Z~bTa*ujoh|k("
+                  ],
+                  "SUBSTACK2" : [
+                     2,
+                     "~w9.!(8X+/j/wb1C:RW9"
+                  ]
+               },
+               "next" : null,
+               "opcode" : "control_if_else",
+               "parent" : "C[})/.40)x*;4CE6:t;B",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "fM|{;E-WG*o@Q.N9+,[k" : {
+               "fields" : {},
+               "inputs" : {
+                  "X" : [
+                     1,
+                     [
+                        4,
+                        0
+                     ]
+                  ],
+                  "Y" : [
+                     1,
+                     [
+                        4,
+                        -65
+                     ]
+                  ]
+               },
+               "next" : "bAOu{FQAUaid6I)wfJ~c",
+               "opcode" : "motion_gotoxy",
+               "parent" : "S1pO?krr|~)7+Z6}D0y/",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "h0^NWZjpEzP%}r1zmY-V" : {
+               "fields" : {},
+               "inputs" : {
+                  "DURATION" : [
+                     1,
+                     [
+                        5,
+                        0.5
+                     ]
+                  ]
+               },
+               "next" : "t}EX3iA2dL7~Fjj`_3Bv",
+               "opcode" : "control_wait",
+               "parent" : "K|OX+.Se3otf#)+A*-LA",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "hN5.2-}DxT0_7gSe7GF9" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "copyComplete",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-copyComplete-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     1,
+                     [
+                        10,
+                        0
+                     ]
+                  ]
+               },
+               "next" : "}{FMpibA)kQ?0IRQ7R=m",
+               "opcode" : "data_setvariableto",
+               "parent" : "O=#uXK_Ja#FN0qL4G!)x",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "j1lCIzIks[Gt}v[FU9n9" : {
+               "fields" : {},
+               "inputs" : {
+                  "LETTER" : [
+                     3,
+                     [
+                        12,
+                        "saveCounter",
+                        "w7Rv3%Yh,ZOg~;[q2,V/-saveCounter-"
+                     ],
+                     [
+                        6,
+                        10
+                     ]
+                  ],
+                  "STRING" : [
+                     3,
+                     "Lwf(7N,DM}eD,uuOLNlA",
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_letter_of",
+               "parent" : "{MS5ocXM!O8XROx[s-p!",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "jH1,p.+mNPSVd;Vse;GI" : {
+               "fields" : {},
+               "inputs" : {
+                  "LETTER" : [
+                     3,
+                     [
+                        12,
+                        "saveCounter",
+                        "w7Rv3%Yh,ZOg~;[q2,V/-saveCounter-"
+                     ],
+                     [
+                        6,
+                        10
+                     ]
+                  ],
+                  "STRING" : [
+                     3,
+                     "MKN7v!TqRkHB;AI#GH]]",
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_letter_of",
+               "parent" : "Y4=C,6H(]g/pIdtl5`2I",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "lIdlAr=)4#67NW;yO.!c" : {
+               "fields" : {},
+               "inputs" : {
+                  "LETTER" : [
+                     3,
+                     [
+                        12,
+                        "saveCounter",
+                        "w7Rv3%Yh,ZOg~;[q2,V/-saveCounter-"
+                     ],
+                     [
+                        6,
+                        10
+                     ]
+                  ],
+                  "STRING" : [
+                     3,
+                     "Qa=hITIn^}wb{1u!!+6n",
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_letter_of",
+               "parent" : "*z8R*zWIHwDO=v5)|@)N",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "o0@k`54wUA,)!60^Z6N2" : {
+               "fields" : {},
+               "inputs" : {
+                  "OPERAND1" : [
+                     3,
+                     "5dk@pXG7_r*ZMYc/7%}D",
+                     [
+                        10,
+                        ""
+                     ]
+                  ],
+                  "OPERAND2" : [
+                     1,
+                     [
+                        10,
+                        "."
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_equals",
+               "parent" : "O=#uXK_Ja#FN0qL4G!)x",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "o67en;ZEj7C|q|g22CFK" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "saveCounter",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-saveCounter-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     1,
+                     [
+                        10,
+                        "1"
+                     ]
+                  ]
+               },
+               "next" : "}!M^D,G`uvVb5,ImJ6Q2",
+               "opcode" : "data_setvariableto",
+               "parent" : "t}EX3iA2dL7~Fjj`_3Bv",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "pP/glwn;%rM-RX#PCqGV" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "tileX",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-tileX-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     1,
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : "skjQs}wiZIOcbU1:7H=Z",
+               "opcode" : "data_setvariableto",
+               "parent" : "@my6-g(cRNtl1.m(TC9#",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "skjQs}wiZIOcbU1:7H=Z" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "tileY",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-tileY-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     1,
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : "Nr=t(1Z0d}5[qRQ=.sdB",
+               "opcode" : "data_setvariableto",
+               "parent" : "pP/glwn;%rM-RX#PCqGV",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "t}EX3iA2dL7~Fjj`_3Bv" : {
+               "fields" : {},
+               "inputs" : {
+                  "QUESTION" : [
+                     1,
+                     [
+                        10,
+                        "Paste your save code here"
+                     ]
+                  ]
+               },
+               "next" : "o67en;ZEj7C|q|g22CFK",
+               "opcode" : "sensing_askandwait",
+               "parent" : "h0^NWZjpEzP%}r1zmY-V",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "u`Y~L6)f+|V{-^^=^jkc" : {
+               "fields" : {},
+               "inputs" : {
+                  "OPERAND1" : [
+                     2,
+                     "Ef?xKp7sz8J!o~wd`F=]"
+                  ],
+                  "OPERAND2" : [
+                     2,
+                     "{MS5ocXM!O8XROx[s-p!"
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_and",
+               "parent" : "C[})/.40)x*;4CE6:t;B",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "vS)qMUO*LhfD;;lBo.pN" : {
+               "fields" : {},
+               "inputs" : {
+                  "OPERAND1" : [
+                     3,
+                     [
+                        12,
+                        "currentAssembleVariable",
+                        "w7Rv3%Yh,ZOg~;[q2,V/-currentAssembleVariable-"
+                     ],
+                     [
+                        10,
+                        ""
+                     ]
+                  ],
+                  "OPERAND2" : [
+                     1,
+                     [
+                        10,
+                        "2"
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_equals",
+               "parent" : "U_Am^/^K#%72(J9U{Z*0",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "vz4dm+CvdnRn8nKgRAor" : {
+               "fields" : {
+                  "BROADCAST_OPTION" : [
+                     "game",
+                     "broadcastMsgId-game"
+                  ]
+               },
+               "inputs" : {},
+               "next" : "1ofZ:Ho:C`lSx|lyRIIg",
+               "opcode" : "event_whenbroadcastreceived",
+               "parent" : null,
+               "shadow" : false,
+               "topLevel" : true,
+               "x" : 320,
+               "y" : 22
+            },
+            "w?i~.sDN@Di}p!qou-7:" : {
+               "fields" : {},
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "sensing_answer",
+               "parent" : "+M6#)^Wlfpi{hkZgTK[:",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "wSN0p+rM#=QBcE)df`J^" : {
+               "fields" : {
+                  "STOP_OPTION" : [
+                     "all"
+                  ]
+               },
+               "inputs" : {},
+               "next" : null,
+               "opcode" : "control_stop",
+               "parent" : "MZ7weRIG%8bQ~J-JwD?S",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "ye#4gjXzz1dE=4M/TL`%" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "tileType",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-tileType-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     3,
+                     "dXPPa~*G7^JDMH0Q:14`",
+                     [
+                        10,
+                        ""
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "data_setvariableto",
+               "parent" : "U_Am^/^K#%72(J9U{Z*0",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "{MS5ocXM!O8XROx[s-p!" : {
+               "fields" : {},
+               "inputs" : {
+                  "OPERAND1" : [
+                     3,
+                     "j1lCIzIks[Gt}v[FU9n9",
+                     [
+                        10,
+                        ""
+                     ]
+                  ],
+                  "OPERAND2" : [
+                     1,
+                     [
+                        10,
+                        "16"
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_lt",
+               "parent" : "u`Y~L6)f+|V{-^^=^jkc",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "}!M^D,G`uvVb5,ImJ6Q2" : {
+               "fields" : {
+                  "VARIABLE" : [
+                     "currentAssembleVariable",
+                     "w7Rv3%Yh,ZOg~;[q2,V/-currentAssembleVariable-"
+                  ]
+               },
+               "inputs" : {
+                  "VALUE" : [
+                     1,
+                     [
+                        10,
+                        0
+                     ]
+                  ]
+               },
+               "next" : "EQnVU:|-A.fqtv`8NRA[",
+               "opcode" : "data_setvariableto",
+               "parent" : "o67en;ZEj7C|q|g22CFK",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "}{FMpibA)kQ?0IRQ7R=m" : {
+               "fields" : {},
+               "inputs" : {
+                  "CLONE_OPTION" : [
+                     1,
+                     "S?8#K6,^]c8/ZmB!f?Ao"
+                  ]
+               },
+               "next" : "@my6-g(cRNtl1.m(TC9#",
+               "opcode" : "control_create_clone_of",
+               "parent" : "hN5.2-}DxT0_7gSe7GF9",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "~(iI3%kbGq~;Nv8HzbN3" : {
+               "fields" : {},
+               "inputs" : {
+                  "MESSAGE" : [
+                     1,
+                     [
+                        10,
+                        "Malformed save code."
+                     ]
+                  ],
+                  "SECS" : [
+                     1,
+                     [
+                        4,
+                        3
+                     ]
+                  ]
+               },
+               "next" : "%@Df],Tx~!HN2_hB*r4G",
+               "opcode" : "looks_sayforsecs",
+               "parent" : "U_Am^/^K#%72(J9U{Z*0",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "~ZEP?%c=zxO0m#55((Ie" : {
+               "fields" : {},
+               "inputs" : {
+                  "OPERAND1" : [
+                     3,
+                     "D1GK1q6-uqnObFi-y[C/",
+                     [
+                        10,
+                        ""
+                     ]
+                  ],
+                  "OPERAND2" : [
+                     1,
+                     [
+                        10,
+                        ","
+                     ]
+                  ]
+               },
+               "next" : null,
+               "opcode" : "operator_equals",
+               "parent" : "R-(cP1,gaL562:;g*!.f",
+               "shadow" : false,
+               "topLevel" : false
+            },
+            "~w9.!(8X+/j/wb1C:RW9" : {
+               "fields" : {},
+               "inputs" : {
+                  "CONDITION" : [
+                     2,
+                     "7UL*5kaui5h,a);OMQBO"
+                  ],
+                  "SUBSTACK" : [
+                     2,
+                     "eC^d|tZd`M2FsHD%R%a2"
+                  ],
+                  "SUBSTACK2" : [
+                     2,
+                     "U_Am^/^K#%72(J9U{Z*0"
+                  ]
+               },
+               "next" : null,
+               "opcode" : "control_if_else",
+               "parent" : "e~}tOY(c_-uy04]H8i8Z",
+               "shadow" : false,
+               "topLevel" : false
+            }
+         },
+         "broadcasts" : {},
+         "comments" : {},
+         "costumes" : [
+            {
+               "assetId" : "99326305bf9858c49a0f194c3293cc88",
+               "bitmapResolution" : 1,
+               "dataFormat" : "svg",
+               "md5ext" : "99326305bf9858c49a0f194c3293cc88.svg",
+               "name" : "costume1",
+               "rotationCenterX" : 66,
+               "rotationCenterY" : 13
+            }
+         ],
+         "currentCostume" : 0,
+         "direction" : 90,
+         "draggable" : false,
+         "isStage" : false,
+         "layerOrder" : 5,
+         "lists" : {},
+         "name" : "load",
+         "rotationStyle" : "all around",
+         "size" : 100,
+         "sounds" : [
+            {
+               "assetId" : "83a9787d4cb6f3b7632b4ddfebf74367",
+               "dataFormat" : "wav",
+               "format" : "",
+               "md5ext" : "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+               "name" : "pop",
+               "rate" : 44100,
+               "sampleCount" : 1032
+            }
+         ],
+         "variables" : {},
+         "visible" : true,
+         "volume" : 100,
+         "x" : 0,
+         "y" : -65
+      }
+   ]
+}
